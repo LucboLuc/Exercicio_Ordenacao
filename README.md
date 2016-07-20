@@ -5,7 +5,7 @@ Etapas do Desenvolvimento:
 	*Estruturar a Interface Gráfica
 	*Implementar Algoritmos Auxiliares do Radix:
 		-Bubble Sort
-		-Insertio Sort
+		-Insertion Sort
 		-Merge Sort
 		-Counting Sort
 
