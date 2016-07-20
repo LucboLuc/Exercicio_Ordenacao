@@ -196,7 +196,7 @@ font: 75 italic 11pt &quot;Mukti Narrow&quot;;</string>
             <item>
              <widget class="QLabel" name="label_InsertionSort">
               <property name="text">
-               <string>Insertiong Sort</string>
+               <string>Insertion Sort</string>
               </property>
              </widget>
             </item>
@@ -216,7 +216,11 @@ font: 75 italic 11pt &quot;Mukti Narrow&quot;;</string>
            </layout>
           </item>
           <item>
-           <widget class="QTextEdit" name="textEdit_InsertionSort"/>
+           <widget class="QTextEdit" name="textEdit_InsertionSort">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+           </widget>
           </item>
          </layout>
         </item>
@@ -260,7 +264,11 @@ font: 75 italic 11pt &quot;Mukti Narrow&quot;;</string>
            </layout>
           </item>
           <item>
-           <widget class="QTextEdit" name="textEdit_MergeSort"/>
+           <widget class="QTextEdit" name="textEdit_MergeSort">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+           </widget>
           </item>
          </layout>
         </item>
@@ -304,7 +312,11 @@ font: 75 italic 11pt &quot;Mukti Narrow&quot;;</string>
            </layout>
           </item>
           <item>
-           <widget class="QTextEdit" name="textEdit_CountingSort"/>
+           <widget class="QTextEdit" name="textEdit_CountingSort">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+           </widget>
           </item>
          </layout>
         </item>

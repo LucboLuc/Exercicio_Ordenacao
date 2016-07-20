@@ -13,8 +13,16 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        telaprincipal.cpp
+        telaprincipal.cpp \
+    bubblesort.cpp \
+    insertionsort.cpp \
+    mergesort.cpp \
+    countingsort.cpp
 
-HEADERS  += telaprincipal.h
+HEADERS  += telaprincipal.h \
+    bubblesort.h \
+    insertionsort.h \
+    mergesort.h \
+    countingsort.h
 
 FORMS    += telaprincipal.ui
