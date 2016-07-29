@@ -1,5 +1,7 @@
 #include "telaprincipal.h"
 #include <QApplication>
+#include "algoritmosordenacao.h"
+#include <QDebug>
 
 int main(int argc, char *argv[])
 {
